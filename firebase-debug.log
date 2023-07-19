@@ -1,0 +1,51 @@
+[debug] [2023-07-19T00:25:38.095Z] ----------------------------------------------------------------------
+[debug] [2023-07-19T00:25:38.097Z] Command:       /Users/macbookpro2015/.nvm/versions/node/v18.16.0/bin/node /Users/macbookpro2015/.nvm/versions/node/v18.16.0/bin/firebase emulators:start
+[debug] [2023-07-19T00:25:38.098Z] CLI Version:   12.4.4
+[debug] [2023-07-19T00:25:38.098Z] Platform:      darwin
+[debug] [2023-07-19T00:25:38.098Z] Node Version:  v18.16.0
+[debug] [2023-07-19T00:25:38.100Z] Time:          Wed Jul 19 2023 07:25:38 GMT+0700 (Western Indonesia Time)
+[debug] [2023-07-19T00:25:38.100Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-07-19T00:25:38.279Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-07-19T00:25:38.280Z] > authorizing via signed-in user (fathan.aa.01@gmail.com)
+[info] i  emulators: Starting emulators: hosting {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: hosting"}}
+[debug] [2023-07-19T00:25:38.586Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-19T00:25:38.586Z] [hosting] Hosting Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-07-19T00:25:38.587Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"hosting":[{"address":"127.0.0.1","family":"IPv4","port":5000}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[debug] [2023-07-19T00:25:38.598Z] [hub] writing locator at /var/folders/2z/d5cq7dnj4kd6vf3px5xdkbph0000gn/T/hub-personalweb-8b9f0.json
+[debug] [2023-07-19T00:25:38.612Z] > refreshing access token with scopes: []
+[debug] [2023-07-19T00:25:38.614Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-07-19T00:25:38.614Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-19T00:25:38.839Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-07-19T00:25:38.839Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-07-19T00:25:38.864Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/personalweb-8b9f0/sites 
+[debug] [2023-07-19T00:25:40.044Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/personalweb-8b9f0/sites 200
+[debug] [2023-07-19T00:25:40.044Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/personalweb-8b9f0/sites {"sites":[{"name":"projects/personalweb-8b9f0/sites/personalweb-8b9f0","defaultUrl":"https://personalweb-8b9f0.web.app","appId":"1:178921788338:web:937873e8912d8fa895caab","type":"DEFAULT_SITE"}]}
+[debug] [2023-07-19T00:25:40.044Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personalweb-8b9f0/webApps/1:178921788338:web:937873e8912d8fa895caab/config [none]
+[debug] [2023-07-19T00:25:41.841Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personalweb-8b9f0/webApps/1:178921788338:web:937873e8912d8fa895caab/config 200
+[debug] [2023-07-19T00:25:41.841Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personalweb-8b9f0/webApps/1:178921788338:web:937873e8912d8fa895caab/config {"projectId":"personalweb-8b9f0","appId":"1:178921788338:web:937873e8912d8fa895caab","databaseURL":"https://personalweb-8b9f0-default-rtdb.asia-southeast1.firebasedatabase.app","storageBucket":"personalweb-8b9f0.appspot.com","apiKey":"AIzaSyCOeV1WCp-2rKyy5snT1Dnp48cuNNCM0W0","authDomain":"personalweb-8b9f0.firebaseapp.com","messagingSenderId":"178921788338","measurementId":"G-2RV99QX0XP"}
+[debug] [2023-07-19T00:25:41.858Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/personalweb-8b9f0 [none]
+[debug] [2023-07-19T00:25:42.659Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/personalweb-8b9f0 200
+[debug] [2023-07-19T00:25:42.660Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/personalweb-8b9f0 {"projectId":"personalweb-8b9f0","projectNumber":"178921788338","displayName":"PersonalWeb","name":"projects/personalweb-8b9f0","resources":{"hostingSite":"personalweb-8b9f0","realtimeDatabaseInstance":"personalweb-8b9f0-default-rtdb"},"state":"ACTIVE","etag":"1_04addfa5-69ab-44c7-a2e8-96ce5fbf010d"}
+[info] i  hosting[personalweb-8b9f0]: Serving hosting files from: dist {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mdist\u001b[22m"}}
+[info] ✔  hosting[personalweb-8b9f0]: Local server: http://127.0.0.1:5000 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:5000\u001b[22m\u001b[24m"}}
+[warn] ⚠  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:5000 │
+└──────────┴────────────────┘
+  Emulator Hub running at 127.0.0.1:4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2023:00:25:57 +0000] "GET / HTTP/1.1" 200 452 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2023:00:25:57 +0000] \"GET / HTTP/1.1\" 200 452 \"-\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2023:00:25:57 +0000] "GET /assets/index-bae7d942.css HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2023:00:25:57 +0000] \"GET /assets/index-bae7d942.css HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2023:00:25:57 +0000] "GET /assets/index-7f918374.js HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2023:00:25:57 +0000] \"GET /assets/index-7f918374.js HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
+[info] i  hosting: 127.0.0.1 - - [19/Jul/2023:00:25:58 +0000] "GET /vite.svg HTTP/1.1" 200 - "http://127.0.0.1:5000/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [19/Jul/2023:00:25:58 +0000] \"GET /vite.svg HTTP/1.1\" 200 - \"http://127.0.0.1:5000/\" \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36\""}}
