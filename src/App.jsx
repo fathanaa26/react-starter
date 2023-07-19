@@ -8,14 +8,15 @@ import { getDatabase } from "firebase/database";
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: "AIzaSyCOeV1WCp-2rKyy5snT1Dnp48cuNNCM0W0",
-  authDomain: "personalweb-8b9f0.firebaseapp.com",
-  projectId: "personalweb-8b9f0",
-  storageBucket: "personalweb-8b9f0.appspot.com",
-  messagingSenderId: "178921788338",
-  appId: "1:178921788338:web:937873e8912d8fa895caab",
-  measurementId: "G-2RV99QX0XP",
-  databaseURL: "https://DATABASE_NAME.firebaseio.com",
+  // Example of Firebase Configurations.
+  // apiKey: "AIzaSyCOeV1WCp-2rKyy5snT1Dnp48cuNNCM0W0",
+  // authDomain: "personalweb-8b9f0.firebaseapp.com",
+  // projectId: "personalweb-8b9f0",
+  // storageBucket: "personalweb-8b9f0.appspot.com",
+  // messagingSenderId: "178921788338",
+  // appId: "1:178921788338:web:937873e8912d8fa895caab",
+  // measurementId: "G-2RV99QX0XP",
+  // databaseURL: "https://DATABASE_NAME.firebaseio.com",
 };
 
 export default function App() {
